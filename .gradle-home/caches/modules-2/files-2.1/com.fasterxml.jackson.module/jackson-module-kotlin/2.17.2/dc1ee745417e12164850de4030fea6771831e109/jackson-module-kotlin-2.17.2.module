@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.module",
+    "module": "jackson-module-kotlin",
+    "version": "2.17.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.17.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.17.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.17.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-kotlin-2.17.2.jar",
+          "url": "jackson-module-kotlin-2.17.2.jar",
+          "size": 188326,
+          "sha512": "d6db430412cecf631c21b703a70f29faeaf555207a21fedf2a79490ed613288fa10f257a97ca5f3f7f3a73a82f4066e9b7824c2622d6b80fc411d2b4845ab30c",
+          "sha256": "f96986fe7bc25559f938324065bd7a0e96c0d59acf17a48e26e517a9abd411e8",
+          "sha1": "67d4e4ec0538f59a28c92f7fa0b63bd2c8b0ef21",
+          "md5": "46f24e7d9ce354d9b19f47507c9fb27b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.17.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.17.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.17.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-kotlin-2.17.2.jar",
+          "url": "jackson-module-kotlin-2.17.2.jar",
+          "size": 188326,
+          "sha512": "d6db430412cecf631c21b703a70f29faeaf555207a21fedf2a79490ed613288fa10f257a97ca5f3f7f3a73a82f4066e9b7824c2622d6b80fc411d2b4845ab30c",
+          "sha256": "f96986fe7bc25559f938324065bd7a0e96c0d59acf17a48e26e517a9abd411e8",
+          "sha1": "67d4e4ec0538f59a28c92f7fa0b63bd2c8b0ef21",
+          "md5": "46f24e7d9ce354d9b19f47507c9fb27b"
+        }
+      ]
+    }
+  ]
+}

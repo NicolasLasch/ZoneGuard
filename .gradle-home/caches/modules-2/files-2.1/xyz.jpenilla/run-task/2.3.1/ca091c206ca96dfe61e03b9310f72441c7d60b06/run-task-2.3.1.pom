@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xyz.jpenilla</groupId>
+  <artifactId>run-task</artifactId>
+  <version>2.3.1</version>
+  <name>run-task</name>
+  <description>Gradle plugins adding run tasks for Minecraft server and proxy software</description>
+  <url>https://github.com/jpenilla/run-task</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jmp</id>
+      <timezone>America/Phoenix</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jpenilla/run-task.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jpenilla/run-task.git</developerConnection>
+    <url>https://github.com/jpenilla/run-task</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/jpenilla/run-task/issues</url>
+  </issueManagement>
+  <ciManagement/>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-kotlin</artifactId>
+      <version>2.17.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

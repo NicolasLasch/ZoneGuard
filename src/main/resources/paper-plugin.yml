@@ -1,0 +1,12 @@
+name: ZoneGuard
+version: '${version}'
+main: be.thespattt.zoneGuard.ZoneGuard
+api-version: '1.21'
+folia-supported: true
+authors:
+  - TheSpattt
+description: Protection de zones simple et compatible Folia.
+permissions:
+  zoneguard.admin:
+    description: Permet de gérer ZoneGuard.
+    default: op

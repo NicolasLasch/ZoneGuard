@@ -178,8 +178,9 @@ Pull requests and issues are welcome! If you find a bug or want a new flag, open
 
 ## 📄 License
 
-This project is released as **free and open source**. Feel free to use, modify, and distribute it.
-
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+You are free to use, modify, and distribute this software, but any derivative work must also be released under the same GPL-3.0 license. You cannot use this code in closed-source or proprietary projects.
+See the LICENSE file for the full license text, or visit gnu.org/licenses/gpl-3.0.
 ---
 
 *Made with ❤️ by TheSpattt*
